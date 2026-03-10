@@ -1,0 +1,91 @@
+{
+  "best_threshold": 0.03,
+  "best_win_rate": 48.18181818181818,
+  "all_results": [
+    {
+      "total_signals": 1552,
+      "winning_trades": 733,
+      "losing_trades": 808,
+      "win_rate": 47.22938144329897,
+      "total_pnl_percent": 765.6717536514342,
+      "average_win": 4.878665396657149,
+      "average_loss": -3.4782054233889306,
+      "profit_factor": 1.402638660687184,
+      "threshold_used": 0.01,
+      "threshold": 0.01
+    },
+    {
+      "total_signals": 1265,
+      "winning_trades": 588,
+      "losing_trades": 668,
+      "win_rate": 46.48221343873517,
+      "total_pnl_percent": 316.49020005645536,
+      "average_win": 4.621016849659617,
+      "average_loss": -3.593813933448203,
+      "profit_factor": 1.285825291802414,
+      "threshold_used": 0.015,
+      "threshold": 0.015
+    },
+    {
+      "total_signals": 1054,
+      "winning_trades": 494,
+      "losing_trades": 551,
+      "win_rate": 46.86907020872865,
+      "total_pnl_percent": 384.5099131356019,
+      "average_win": 4.946878961688452,
+      "average_loss": -3.73729272947095,
+      "profit_factor": 1.3236530611260764,
+      "threshold_used": 0.02,
+      "threshold": 0.02
+    },
+    {
+      "total_signals": 836,
+      "winning_trades": 395,
+      "losing_trades": 432,
+      "win_rate": 47.248803827751196,
+      "total_pnl_percent": 434.02694331506314,
+      "average_win": 5.3703699740924,
+      "average_loss": -3.90571573252647,
+      "profit_factor": 1.3750027758980035,
+      "threshold_used": 0.025,
+      "threshold": 0.025
+    },
+    {
+      "total_signals": 660,
+      "winning_trades": 318,
+      "losing_trades": 333,
+      "win_rate": 48.18181818181818,
+      "total_pnl_percent": 298.026969580661,
+      "average_win": 5.2511196618025044,
+      "average_loss": -4.119606855473079,
+      "profit_factor": 1.274665240161488,
+      "threshold_used": 0.03,
+      "threshold": 0.03
+    },
+    {
+      "total_signals": 374,
+      "winning_trades": 172,
+      "losing_trades": 195,
+      "win_rate": 45.98930481283423,
+      "total_pnl_percent": -54.822714987002726,
+      "average_win": 5.03026421899589,
+      "average_loss": -4.718093131560491,
+      "profit_factor": 1.0661646726189462,
+      "threshold_used": 0.04,
+      "threshold": 0.04
+    },
+    {
+      "total_signals": 212,
+      "winning_trades": 99,
+      "losing_trades": 107,
+      "win_rate": 46.69811320754717,
+      "total_pnl_percent": 41.05993940152409,
+      "average_win": 6.373902162876509,
+      "average_loss": -5.513610978721966,
+      "profit_factor": 1.1560304467389093,
+      "threshold_used": 0.05,
+      "threshold": 0.05
+    }
+  ],
+  "timestamp": "2026-03-09T21:57:11.726884"
+}

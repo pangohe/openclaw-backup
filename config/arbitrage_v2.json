@@ -1,0 +1,81 @@
+{
+  "system": "跨交易所套利系统 v1.0",
+  "type": "independent_arbitrage",
+  "created": "2026-03-09",
+  
+  "trading": {
+    "initial_capital_usdt": 10000,
+    "position_size_usdt": 100,
+    "max_position_pct": 0.5,
+    "max_daily_trades": 20,
+    "max_total_positions": 5
+  },
+  
+  "arbitrage": {
+    "min_spread_pct": 0.3,
+    "target_spread_pct": 0.5,
+    "max_spread_pct": 5.0,
+    "trading_fee_rate": 0.001,
+    "withdrawal_fee_pct": 0.0005,
+    "slippage_pct": 0.001
+  },
+  
+  "exchanges": {
+    "binance": {
+      "enabled": true,
+      "api_base": "https://api.binance.com/api/v3",
+      "fee_rate": 0.001,
+      "withdrawal_enabled": true,
+      "priority": 1,
+      "note": "流动性最好，API 最稳定"
+    },
+    "okx": {
+      "enabled": true,
+      "api_base": "https://www.okx.com/api/v5/market",
+      "fee_rate": 0.0008,
+      "withdrawal_enabled": true,
+      "priority": 2,
+      "note": "费率最低，API 友好"
+    },
+    "kucoin": {
+      "enabled": true,
+      "api_base": "https://api.kucoin.com/api/v1/market",
+      "fee_rate": 0.001,
+      "withdrawal_enabled": true,
+      "priority": 3,
+      "note": "币种多，套利机会多"
+    }
+  },
+  
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "BNBUSDT",
+    "XRPUSDT",
+    "ADAUSDT",
+    "DOGEUSDT",
+    "DOTUSDT",
+    "MATICUSDT",
+    "AVAXUSDT"
+  ],
+  
+  "risk_control": {
+    "stop_loss_pct": 0.5,
+    "max_drawdown_pct": 20,
+    "daily_loss_limit_usdt": 500,
+    "cooling_period_minutes": 5
+  },
+  
+  "data_collection": {
+    "interval_minutes": 1,
+    "save_history": true,
+    "history_days": 30
+  },
+  
+  "notification": {
+    "enabled": true,
+    "min_profit_usdt": 1,
+    "channel": "telegram"
+  }
+}

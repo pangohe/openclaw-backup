@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-03-01T16:37:07",
+  "check_type": "Token Watcher - 智能监控（优化版）",
+  "current_usage_percent": 46.2,
+  "messages": 231,
+  "threshold_percent": 70,
+  "above_threshold": false,
+  "last_warning_percent": 78.4,
+  "alerts_sent": 16,
+  "compression_count": 0,
+  "status": "OK - Usage below threshold"
+}

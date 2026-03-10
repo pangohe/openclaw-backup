@@ -1,0 +1,110 @@
+# 敏感文件 - 不提交到 GitHub
+
+# API 密钥和认证信息
+*auth*.json
+*auth*.yaml
+*auth*.yml
+auth-profiles.json
+models.json
+
+# 密码和密钥
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.id_rsa
+.id_rsa.pub
+.ssh/config
+.ssh/known_hosts
+
+# 环境变量
+.env
+.env.*
+*.env
+
+# 包含敏感信息的文件
+**/api_keys.json
+**/secrets.json
+**/credentials.json
+memory/stt-config.md
+memory/2026-02-19.md
+memory/2026-02-20.md
+
+# 脚本中的硬编码密钥（会被 secret scanning 检测）
+scripts/model_benchmark.py
+scripts/model_benchmark_api.py
+
+# 日志文件
+*.log
+logs/
+token_*.log
+token_*.txt
+
+# 临时文件
+*.tmp
+*.bak
+*~
+.#*
+*.swp
+*.swo
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node modules
+node_modules/
+
+# OS 文件
+.DS_Store
+Thumbs.db
+
+# 敏感文件 - 绝不提交
+*auth*.json
+*auth*.yaml
+*auth*.yml
+auth-profiles.json
+models.json
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.ssh/
+.env
+.env.*
+*.env
+**/credentials.json
+memory/stt-config.md
+memory/2026-02-19.md
+memory/2026-02-20.md
+scripts/model_benchmark.py
+scripts/model_benchmark_api.py
+
+# 临时文件
+*.log
+logs/
+token_*.log
+token_*.txt
+*.tmp
+*.bak
+*~
+.#*
+*.swp
+*.swo
+
+# 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+node_modules/
+.DS_Store
+Thumbs.db
+
+# 大型数据文件（可选，注释掉则备份）
+# *.sqlite
+# *.db
+# data/crypto-trends/*.json
+# data/polymarket/*.json

@@ -1,0 +1,88 @@
+{
+  "check_time": "2026-03-10T10:38:24.171323",
+  "total_events": 50,
+  "crypto_events": [
+    {
+      "name": "Fed decision in January?",
+      "slug": "fed-decision-in-january",
+      "probability": 0.0,
+      "volume": 659499548.531115,
+      "end_date": "2026-01-28T00:00:00Z",
+      "category": "",
+      "url": "https://polymarket.com/market/fed-decision-in-january"
+    },
+    {
+      "name": "Who will Trump nominate as Fed Chair?",
+      "slug": "who-will-trump-nominate-as-fed-chair",
+      "probability": 1.0,
+      "volume": 617333689.5269531,
+      "end_date": "2026-12-31T00:00:00Z",
+      "category": "",
+      "url": "https://polymarket.com/market/who-will-trump-nominate-as-fed-chair"
+    },
+    {
+      "name": "US strikes Iran by...?",
+      "slug": "us-strikes-iran-by",
+      "probability": 0.0,
+      "volume": 529033417.449223,
+      "end_date": "2026-06-30T00:00:00Z",
+      "category": "",
+      "url": "https://polymarket.com/market/us-strikes-iran-by"
+    },
+    {
+      "name": "Fed decision in December?",
+      "slug": "fed-decision-in-december",
+      "probability": 0.0,
+      "volume": 393905949.377453,
+      "end_date": "2025-12-10T00:00:00Z",
+      "category": "",
+      "url": "https://polymarket.com/market/fed-decision-in-december"
+    },
+    {
+      "name": "Fed decision in March?",
+      "slug": "fed-decision-in-march-885",
+      "probability": 0.0025,
+      "volume": 299863908.16326314,
+      "end_date": "2026-03-18T00:00:00Z",
+      "category": "",
+      "url": "https://polymarket.com/market/fed-decision-in-march-885"
+    },
+    {
+      "name": "Fed decision in October?",
+      "slug": "fed-decision-in-october",
+      "probability": 0.0,
+      "volume": 252485550.016563,
+      "end_date": "2025-10-29T12:00:00Z",
+      "category": "",
+      "url": "https://polymarket.com/market/fed-decision-in-october"
+    },
+    {
+      "name": "Fed decision in September?",
+      "slug": "fed-decision-in-september",
+      "probability": 0.0,
+      "volume": 220591460.745363,
+      "end_date": "2025-09-17T12:00:00Z",
+      "category": "",
+      "url": "https://polymarket.com/market/fed-decision-in-september"
+    },
+    {
+      "name": "What price will Bitcoin hit in 2025?",
+      "slug": "what-price-will-bitcoin-hit-in-2025",
+      "probability": 0.0,
+      "volume": 188753254.123653,
+      "end_date": "2026-01-01T05:00:00Z",
+      "category": "",
+      "url": "https://polymarket.com/market/what-price-will-bitcoin-hit-in-2025"
+    },
+    {
+      "name": "Fed decision in July?",
+      "slug": "fed-decision-in-july",
+      "probability": 0.0,
+      "volume": 136613627.403447,
+      "end_date": "2025-07-30T12:00:00Z",
+      "category": "",
+      "url": "https://polymarket.com/market/fed-decision-in-july"
+    }
+  ],
+  "arbitrage_opportunities": []
+}

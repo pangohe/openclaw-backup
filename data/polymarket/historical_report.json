@@ -1,0 +1,1022 @@
+[
+  {
+    "check_time": "2026-02-07T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $70K in January?",
+        "slug": "bitcoin-price-january",
+        "probability": 0.5419145482773435,
+        "volume": 30597272.438591428,
+        "end_date": "2026-03-09T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-january"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in January?",
+        "slug": "ethereum-etf-january",
+        "probability": 0.44088963485810817,
+        "volume": 46149607.50625639,
+        "end_date": "2026-03-09T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-january"
+      },
+      {
+        "name": "Will Fed raise rates in January?",
+        "slug": "fed-rates-january",
+        "probability": 0.32952931227637916,
+        "volume": 42406395.05667289,
+        "end_date": "2026-03-09T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-january"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-08T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $71K in February?",
+        "slug": "bitcoin-price-february",
+        "probability": 0.5557043478583745,
+        "volume": 11531533.170581141,
+        "end_date": "2026-03-10T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-february"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in February?",
+        "slug": "ethereum-etf-february",
+        "probability": 0.7128863129807952,
+        "volume": 31265720.394154906,
+        "end_date": "2026-03-10T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-february"
+      },
+      {
+        "name": "Will Fed raise rates in February?",
+        "slug": "fed-rates-february",
+        "probability": 0.5885701753722693,
+        "volume": 7319158.152977702,
+        "end_date": "2026-03-10T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-february"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-09T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $72K in March?",
+        "slug": "bitcoin-price-march",
+        "probability": 0.4658216171312042,
+        "volume": 49586751.625522345,
+        "end_date": "2026-03-11T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-march"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in March?",
+        "slug": "ethereum-etf-march",
+        "probability": 0.652343934812852,
+        "volume": 28278547.659605924,
+        "end_date": "2026-03-11T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-march"
+      },
+      {
+        "name": "Will Fed raise rates in March?",
+        "slug": "fed-rates-march",
+        "probability": 0.37992033370449824,
+        "volume": 25080596.962141614,
+        "end_date": "2026-03-11T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-march"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-10T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $73K in April?",
+        "slug": "bitcoin-price-april",
+        "probability": 0.7810111751407915,
+        "volume": 43472985.035887696,
+        "end_date": "2026-03-12T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-april"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in April?",
+        "slug": "ethereum-etf-april",
+        "probability": 0.2522104287578411,
+        "volume": 29065541.267484564,
+        "end_date": "2026-03-12T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-april"
+      },
+      {
+        "name": "Will Fed raise rates in April?",
+        "slug": "fed-rates-april",
+        "probability": 0.5544142937703588,
+        "volume": 34355340.39660676,
+        "end_date": "2026-03-12T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-april"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-11T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $74K in May?",
+        "slug": "bitcoin-price-may",
+        "probability": 0.6132989928590351,
+        "volume": 79648603.10763966,
+        "end_date": "2026-03-13T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-may"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in May?",
+        "slug": "ethereum-etf-may",
+        "probability": 0.6535026147648003,
+        "volume": 93969763.43469085,
+        "end_date": "2026-03-13T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-may"
+      },
+      {
+        "name": "Will Fed raise rates in May?",
+        "slug": "fed-rates-may",
+        "probability": 0.3555319096875832,
+        "volume": 51591962.01864032,
+        "end_date": "2026-03-13T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-may"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-12T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $75K in June?",
+        "slug": "bitcoin-price-june",
+        "probability": 0.2916992000963226,
+        "volume": 24632693.516704842,
+        "end_date": "2026-03-14T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-june"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in June?",
+        "slug": "ethereum-etf-june",
+        "probability": 0.4712627048045327,
+        "volume": 79912375.73130514,
+        "end_date": "2026-03-14T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-june"
+      },
+      {
+        "name": "Will Fed raise rates in June?",
+        "slug": "fed-rates-june",
+        "probability": 0.42904460871920835,
+        "volume": 53600652.30606887,
+        "end_date": "2026-03-14T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-june"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-13T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $76K in January?",
+        "slug": "bitcoin-price-january",
+        "probability": 0.5393388401379389,
+        "volume": 91978482.17540105,
+        "end_date": "2026-03-15T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-january"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in January?",
+        "slug": "ethereum-etf-january",
+        "probability": 0.333231230111825,
+        "volume": 36149558.62910956,
+        "end_date": "2026-03-15T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-january"
+      },
+      {
+        "name": "Will Fed raise rates in January?",
+        "slug": "fed-rates-january",
+        "probability": 0.7795234385447862,
+        "volume": 89901939.521586,
+        "end_date": "2026-03-15T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-january"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-14T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $77K in February?",
+        "slug": "bitcoin-price-february",
+        "probability": 0.2814028148692503,
+        "volume": 36786664.93278807,
+        "end_date": "2026-03-16T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-february"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in February?",
+        "slug": "ethereum-etf-february",
+        "probability": 0.7992939086805555,
+        "volume": 15782401.330900993,
+        "end_date": "2026-03-16T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-february"
+      },
+      {
+        "name": "Will Fed raise rates in February?",
+        "slug": "fed-rates-february",
+        "probability": 0.36989835332491927,
+        "volume": 26450354.809034217,
+        "end_date": "2026-03-16T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-february"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-15T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $78K in March?",
+        "slug": "bitcoin-price-march",
+        "probability": 0.4688635772252446,
+        "volume": 60264975.84018695,
+        "end_date": "2026-03-17T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-march"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in March?",
+        "slug": "ethereum-etf-march",
+        "probability": 0.6384114746559525,
+        "volume": 75860793.13633427,
+        "end_date": "2026-03-17T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-march"
+      },
+      {
+        "name": "Will Fed raise rates in March?",
+        "slug": "fed-rates-march",
+        "probability": 0.7775686631794849,
+        "volume": 90739767.20086114,
+        "end_date": "2026-03-17T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-march"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-16T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $79K in April?",
+        "slug": "bitcoin-price-april",
+        "probability": 0.2775431351597331,
+        "volume": 4760228.991418565,
+        "end_date": "2026-03-18T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-april"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in April?",
+        "slug": "ethereum-etf-april",
+        "probability": 0.559641948055065,
+        "volume": 51492918.53791175,
+        "end_date": "2026-03-18T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-april"
+      },
+      {
+        "name": "Will Fed raise rates in April?",
+        "slug": "fed-rates-april",
+        "probability": 0.22307739746322353,
+        "volume": 88814268.17681111,
+        "end_date": "2026-03-18T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-april"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-17T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $80K in May?",
+        "slug": "bitcoin-price-may",
+        "probability": 0.3989188082351961,
+        "volume": 15979774.006486919,
+        "end_date": "2026-03-19T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-may"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in May?",
+        "slug": "ethereum-etf-may",
+        "probability": 0.7474559467391659,
+        "volume": 17293562.151754834,
+        "end_date": "2026-03-19T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-may"
+      },
+      {
+        "name": "Will Fed raise rates in May?",
+        "slug": "fed-rates-may",
+        "probability": 0.780306293286898,
+        "volume": 73659267.38873701,
+        "end_date": "2026-03-19T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-may"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-18T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $81K in June?",
+        "slug": "bitcoin-price-june",
+        "probability": 0.7400964932694511,
+        "volume": 69954110.69546796,
+        "end_date": "2026-03-20T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-june"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in June?",
+        "slug": "ethereum-etf-june",
+        "probability": 0.35282331407801903,
+        "volume": 54892180.11788559,
+        "end_date": "2026-03-20T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-june"
+      },
+      {
+        "name": "Will Fed raise rates in June?",
+        "slug": "fed-rates-june",
+        "probability": 0.3403216137820485,
+        "volume": 82533577.35510468,
+        "end_date": "2026-03-20T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-june"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-19T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $82K in January?",
+        "slug": "bitcoin-price-january",
+        "probability": 0.711370683849593,
+        "volume": 92249394.75204113,
+        "end_date": "2026-03-21T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-january"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in January?",
+        "slug": "ethereum-etf-january",
+        "probability": 0.5061323915757701,
+        "volume": 66507733.139127724,
+        "end_date": "2026-03-21T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-january"
+      },
+      {
+        "name": "Will Fed raise rates in January?",
+        "slug": "fed-rates-january",
+        "probability": 0.4348446375508546,
+        "volume": 36069165.35182707,
+        "end_date": "2026-03-21T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-january"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-20T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $83K in February?",
+        "slug": "bitcoin-price-february",
+        "probability": 0.7932271262019328,
+        "volume": 93787037.4595462,
+        "end_date": "2026-03-22T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-february"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in February?",
+        "slug": "ethereum-etf-february",
+        "probability": 0.4936961074868863,
+        "volume": 22476712.048829034,
+        "end_date": "2026-03-22T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-february"
+      },
+      {
+        "name": "Will Fed raise rates in February?",
+        "slug": "fed-rates-february",
+        "probability": 0.7722326387657017,
+        "volume": 49785638.27861436,
+        "end_date": "2026-03-22T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-february"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-21T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $84K in March?",
+        "slug": "bitcoin-price-march",
+        "probability": 0.48020942924284704,
+        "volume": 85465258.63568759,
+        "end_date": "2026-03-23T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-march"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in March?",
+        "slug": "ethereum-etf-march",
+        "probability": 0.28490086429105566,
+        "volume": 97231161.9107965,
+        "end_date": "2026-03-23T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-march"
+      },
+      {
+        "name": "Will Fed raise rates in March?",
+        "slug": "fed-rates-march",
+        "probability": 0.6831427415162363,
+        "volume": 80900833.27537276,
+        "end_date": "2026-03-23T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-march"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-22T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $85K in April?",
+        "slug": "bitcoin-price-april",
+        "probability": 0.40533140643591153,
+        "volume": 51834799.57165302,
+        "end_date": "2026-03-24T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-april"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in April?",
+        "slug": "ethereum-etf-april",
+        "probability": 0.4252087719930702,
+        "volume": 47908617.46372224,
+        "end_date": "2026-03-24T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-april"
+      },
+      {
+        "name": "Will Fed raise rates in April?",
+        "slug": "fed-rates-april",
+        "probability": 0.20385345726231335,
+        "volume": 15980610.272143658,
+        "end_date": "2026-03-24T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-april"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-23T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $86K in May?",
+        "slug": "bitcoin-price-may",
+        "probability": 0.43261380918062475,
+        "volume": 46785864.36834257,
+        "end_date": "2026-03-25T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-may"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in May?",
+        "slug": "ethereum-etf-may",
+        "probability": 0.5707074786348605,
+        "volume": 98226337.64353077,
+        "end_date": "2026-03-25T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-may"
+      },
+      {
+        "name": "Will Fed raise rates in May?",
+        "slug": "fed-rates-may",
+        "probability": 0.5577146846796484,
+        "volume": 92562412.8758716,
+        "end_date": "2026-03-25T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-may"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-24T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $87K in June?",
+        "slug": "bitcoin-price-june",
+        "probability": 0.4558382659398533,
+        "volume": 58725504.60917245,
+        "end_date": "2026-03-26T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-june"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in June?",
+        "slug": "ethereum-etf-june",
+        "probability": 0.5716278094786865,
+        "volume": 13670056.790997528,
+        "end_date": "2026-03-26T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-june"
+      },
+      {
+        "name": "Will Fed raise rates in June?",
+        "slug": "fed-rates-june",
+        "probability": 0.7444794794268916,
+        "volume": 53817943.81719383,
+        "end_date": "2026-03-26T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-june"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-25T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $88K in January?",
+        "slug": "bitcoin-price-january",
+        "probability": 0.7173215027450084,
+        "volume": 50912785.706519455,
+        "end_date": "2026-03-27T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-january"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in January?",
+        "slug": "ethereum-etf-january",
+        "probability": 0.5007870520187008,
+        "volume": 55877359.38324199,
+        "end_date": "2026-03-27T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-january"
+      },
+      {
+        "name": "Will Fed raise rates in January?",
+        "slug": "fed-rates-january",
+        "probability": 0.5573202092066718,
+        "volume": 76156606.54668386,
+        "end_date": "2026-03-27T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-january"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-26T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $89K in February?",
+        "slug": "bitcoin-price-february",
+        "probability": 0.3383884930499908,
+        "volume": 41553363.25144888,
+        "end_date": "2026-03-28T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-february"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in February?",
+        "slug": "ethereum-etf-february",
+        "probability": 0.7503378849814741,
+        "volume": 5770440.68106991,
+        "end_date": "2026-03-28T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-february"
+      },
+      {
+        "name": "Will Fed raise rates in February?",
+        "slug": "fed-rates-february",
+        "probability": 0.316783722157178,
+        "volume": 18245932.396607615,
+        "end_date": "2026-03-28T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-february"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-27T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $70K in March?",
+        "slug": "bitcoin-price-march",
+        "probability": 0.2710522744072785,
+        "volume": 90452637.73308268,
+        "end_date": "2026-03-29T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-march"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in March?",
+        "slug": "ethereum-etf-march",
+        "probability": 0.7929596606022074,
+        "volume": 78759763.89401281,
+        "end_date": "2026-03-29T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-march"
+      },
+      {
+        "name": "Will Fed raise rates in March?",
+        "slug": "fed-rates-march",
+        "probability": 0.35183962749380204,
+        "volume": 45891958.457328096,
+        "end_date": "2026-03-29T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-march"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-02-28T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $71K in April?",
+        "slug": "bitcoin-price-april",
+        "probability": 0.5916036465114753,
+        "volume": 86053245.33481048,
+        "end_date": "2026-03-30T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-april"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in April?",
+        "slug": "ethereum-etf-april",
+        "probability": 0.27358674493285906,
+        "volume": 8615142.627938475,
+        "end_date": "2026-03-30T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-april"
+      },
+      {
+        "name": "Will Fed raise rates in April?",
+        "slug": "fed-rates-april",
+        "probability": 0.7139238560389427,
+        "volume": 3479123.571605869,
+        "end_date": "2026-03-30T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-april"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-03-01T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $72K in May?",
+        "slug": "bitcoin-price-may",
+        "probability": 0.24564677204387525,
+        "volume": 31240917.721380886,
+        "end_date": "2026-03-31T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-may"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in May?",
+        "slug": "ethereum-etf-may",
+        "probability": 0.7176635324123226,
+        "volume": 1404941.5964912951,
+        "end_date": "2026-03-31T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-may"
+      },
+      {
+        "name": "Will Fed raise rates in May?",
+        "slug": "fed-rates-may",
+        "probability": 0.4519724209826988,
+        "volume": 40026208.329417124,
+        "end_date": "2026-03-31T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-may"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-03-02T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $73K in June?",
+        "slug": "bitcoin-price-june",
+        "probability": 0.6793074435657847,
+        "volume": 20179721.45255377,
+        "end_date": "2026-04-01T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-june"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in June?",
+        "slug": "ethereum-etf-june",
+        "probability": 0.3727718466909087,
+        "volume": 30617300.79137837,
+        "end_date": "2026-04-01T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-june"
+      },
+      {
+        "name": "Will Fed raise rates in June?",
+        "slug": "fed-rates-june",
+        "probability": 0.4180741474603618,
+        "volume": 40328531.37942936,
+        "end_date": "2026-04-01T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-june"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-03-03T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $74K in January?",
+        "slug": "bitcoin-price-january",
+        "probability": 0.4422425869930115,
+        "volume": 29514886.510262344,
+        "end_date": "2026-04-02T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-january"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in January?",
+        "slug": "ethereum-etf-january",
+        "probability": 0.6967658407943423,
+        "volume": 6744314.94537844,
+        "end_date": "2026-04-02T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-january"
+      },
+      {
+        "name": "Will Fed raise rates in January?",
+        "slug": "fed-rates-january",
+        "probability": 0.3348366074749879,
+        "volume": 85408697.14343272,
+        "end_date": "2026-04-02T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-january"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-03-04T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $75K in February?",
+        "slug": "bitcoin-price-february",
+        "probability": 0.711353391604663,
+        "volume": 94487349.77862853,
+        "end_date": "2026-04-03T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-february"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in February?",
+        "slug": "ethereum-etf-february",
+        "probability": 0.5065309605876859,
+        "volume": 16438242.875040034,
+        "end_date": "2026-04-03T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-february"
+      },
+      {
+        "name": "Will Fed raise rates in February?",
+        "slug": "fed-rates-february",
+        "probability": 0.3198125802545741,
+        "volume": 3764148.5047027827,
+        "end_date": "2026-04-03T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-february"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-03-05T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $76K in March?",
+        "slug": "bitcoin-price-march",
+        "probability": 0.396392477868583,
+        "volume": 61839263.00252547,
+        "end_date": "2026-04-04T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-march"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in March?",
+        "slug": "ethereum-etf-march",
+        "probability": 0.35081531824070644,
+        "volume": 77479950.72241628,
+        "end_date": "2026-04-04T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-march"
+      },
+      {
+        "name": "Will Fed raise rates in March?",
+        "slug": "fed-rates-march",
+        "probability": 0.7600025264228414,
+        "volume": 4868772.976422938,
+        "end_date": "2026-04-04T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-march"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-03-06T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $77K in April?",
+        "slug": "bitcoin-price-april",
+        "probability": 0.7552579635725745,
+        "volume": 14864758.672190003,
+        "end_date": "2026-04-05T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-april"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in April?",
+        "slug": "ethereum-etf-april",
+        "probability": 0.3636554387624779,
+        "volume": 44513744.827058956,
+        "end_date": "2026-04-05T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-april"
+      },
+      {
+        "name": "Will Fed raise rates in April?",
+        "slug": "fed-rates-april",
+        "probability": 0.6414284993867696,
+        "volume": 8834268.881088004,
+        "end_date": "2026-04-05T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-april"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-03-07T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $78K in May?",
+        "slug": "bitcoin-price-may",
+        "probability": 0.5913756816044184,
+        "volume": 17826734.71600568,
+        "end_date": "2026-04-06T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-may"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in May?",
+        "slug": "ethereum-etf-may",
+        "probability": 0.6964562571338727,
+        "volume": 69077779.3127961,
+        "end_date": "2026-04-06T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-may"
+      },
+      {
+        "name": "Will Fed raise rates in May?",
+        "slug": "fed-rates-may",
+        "probability": 0.4770517450999535,
+        "volume": 56688054.361230575,
+        "end_date": "2026-04-06T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-may"
+      }
+    ],
+    "arbitrage_opportunities": []
+  },
+  {
+    "check_time": "2026-03-08T21:54:09.075723",
+    "total_events": 3,
+    "crypto_events": [
+      {
+        "name": "Will Bitcoin hit $79K in June?",
+        "slug": "bitcoin-price-june",
+        "probability": 0.4266441086067997,
+        "volume": 78693840.63665202,
+        "end_date": "2026-04-07T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/bitcoin-price-june"
+      },
+      {
+        "name": "Will Ethereum ETF be approved in June?",
+        "slug": "ethereum-etf-june",
+        "probability": 0.7272905748499381,
+        "volume": 19773040.218782417,
+        "end_date": "2026-04-07T21:54:09.075723",
+        "category": "Crypto",
+        "url": "https://polymarket.com/market/ethereum-etf-june"
+      },
+      {
+        "name": "Will Fed raise rates in June?",
+        "slug": "fed-rates-june",
+        "probability": 0.5505298520633861,
+        "volume": 85529144.6161543,
+        "end_date": "2026-04-07T21:54:09.075723",
+        "category": "Economy",
+        "url": "https://polymarket.com/market/fed-rates-june"
+      }
+    ],
+    "arbitrage_opportunities": []
+  }
+]

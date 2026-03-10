@@ -1,0 +1,70 @@
+{
+  "check_time": "2026-03-09T23:09:15.392483",
+  "total_markets_checked": 20,
+  "crypto_events_count": 6,
+  "crypto_events": [
+    {
+      "name": "",
+      "slug": "what-will-the-usd-price-of-filecoin-fil-be-on-november-17th-2020",
+      "probability": 0,
+      "volume": "69947.098531",
+      "end_date": "2020-11-17T00:00:00Z",
+      "category": "Crypto",
+      "url": ""
+    },
+    {
+      "name": "",
+      "slug": "what-will-the-price-of-bitcoin-be-on-november-4th-2020",
+      "probability": 0,
+      "volume": "59755.804763",
+      "end_date": "2020-11-04T00:00:00Z",
+      "category": "Crypto",
+      "url": ""
+    },
+    {
+      "name": "",
+      "slug": "what-will-the-total-value-locked-tvl-in-defi-be-at-the-end-of-2020-according-to-defipulse",
+      "probability": 0,
+      "volume": "46944.579746",
+      "end_date": "2021-01-02T00:00:00Z",
+      "category": "Crypto",
+      "url": ""
+    },
+    {
+      "name": "",
+      "slug": "will-dharma-s-phase-1-retroactive-uni-distribution-proposal-pass",
+      "probability": 0,
+      "volume": "35661.941003",
+      "end_date": "2020-10-31T00:00:00Z",
+      "category": "Crypto",
+      "url": ""
+    },
+    {
+      "name": "",
+      "slug": "will-btc-break-15k-before-2021-1",
+      "probability": 0,
+      "volume": "224706.488667",
+      "end_date": "2021-01-01T00:00:00Z",
+      "category": "Crypto",
+      "url": ""
+    },
+    {
+      "name": "",
+      "slug": "will-coinbase-begin-publicly-trading-before-jan-1-2021",
+      "probability": 0,
+      "volume": "116803.377183",
+      "end_date": "2021-01-02T00:00:00Z",
+      "category": "Crypto",
+      "url": ""
+    }
+  ],
+  "arbitrage_opportunities": [
+    {
+      "name": "",
+      "probability": 0.0,
+      "volume": 10802601.987023,
+      "url": "",
+      "opportunity_type": "high_confidence"
+    }
+  ]
+}

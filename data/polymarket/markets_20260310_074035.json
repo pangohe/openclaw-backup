@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-03-10T07:40:35.302219",
+  "markets": [
+    {
+      "id": "btc-150k",
+      "title": "Will BTC be above $150k by April 2026?",
+      "outcome": "Yes",
+      "probability": 0.32,
+      "volume": 4500000,
+      "end_date": "2026-04-30"
+    },
+    {
+      "id": "eth-5k",
+      "title": "Will ETH hit $5k by end of 2026?",
+      "outcome": "Yes",
+      "probability": 0.18,
+      "volume": 2800000,
+      "end_date": "2026-12-31"
+    },
+    {
+      "id": "sol-outage",
+      "title": "Will Solana have a network outage >24h in Q2 2026?",
+      "outcome": "No",
+      "probability": 0.85,
+      "volume": 1200000,
+      "end_date": "2026-06-30"
+    },
+    {
+      "id": "btc-halving",
+      "title": "Will BTC halving happen before June 2028?",
+      "outcome": "Yes",
+      "probability": 0.92,
+      "volume": 8900000,
+      "end_date": "2028-06-01"
+    },
+    {
+      "id": "defi-tvl",
+      "title": "Will DeFi TVL exceed $200B by year end?",
+      "outcome": "Yes",
+      "probability": 0.45,
+      "volume": 3500000,
+      "end_date": "2026-12-31"
+    },
+    {
+      "id": "sol-etf",
+      "title": "Will a spot SOL ETF be approved in US by Q3 2026?",
+      "outcome": "Yes",
+      "probability": 0.38,
+      "volume": 5600000,
+      "end_date": "2026-09-30"
+    },
+    {
+      "id": "eth-etf",
+      "title": "Will SEC approve a spot ETH ETF in 2026?",
+      "outcome": "No",
+      "probability": 0.62,
+      "volume": 7800000,
+      "end_date": "2026-12-31"
+    },
+    {
+      "id": "meme-10b",
+      "title": "Will any new meme coin reach $10B market cap in 2026?",
+      "outcome": "Yes",
+      "probability": 0.55,
+      "volume": 2100000,
+      "end_date": "2026-12-31"
+    }
+  ]
+}

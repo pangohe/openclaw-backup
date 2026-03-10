@@ -1,0 +1,50 @@
+{
+  "timestamp": "2026-03-10 11:12:21",
+  "markets": [
+    {
+      "id": "test-1",
+      "question": "Will Bitcoin exceed $150,000 by December 2026?",
+      "outcome": "Yes",
+      "probability": 0.42,
+      "volume": 125000,
+      "liquidity": 25000,
+      "end_date": "2026-12-31",
+      "url": "https://polymarket.com/market/btc-150k-2026",
+      "category": "crypto"
+    },
+    {
+      "id": "test-2",
+      "question": "Will Ethereum have a spot ETF approved by SEC in 2026?",
+      "outcome": "Yes",
+      "probability": 0.35,
+      "volume": 89000,
+      "liquidity": 18000,
+      "end_date": "2026-12-31",
+      "url": "https://polymarket.com/market/eth-etf-2026",
+      "category": "crypto"
+    },
+    {
+      "id": "test-3",
+      "question": "Will Solana exceed $500 in Q2 2026?",
+      "outcome": "Yes",
+      "probability": 0.58,
+      "volume": 45000,
+      "liquidity": 12000,
+      "end_date": "2026-06-30",
+      "url": "https://polymarket.com/market/sol-500-q2",
+      "category": "crypto"
+    },
+    {
+      "id": "test-4",
+      "question": "Will crypto market cap exceed $4T in 2026?",
+      "outcome": "Yes",
+      "probability": 0.28,
+      "volume": 32000,
+      "liquidity": 8000,
+      "end_date": "2026-12-31",
+      "url": "https://polymarket.com/market/cap-4t-2026",
+      "category": "crypto"
+    }
+  ],
+  "opportunities": []
+}

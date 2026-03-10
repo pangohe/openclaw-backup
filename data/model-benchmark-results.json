@@ -1,0 +1,186 @@
+[
+  {
+    "provider": "bailian",
+    "model": "qwen3.5-plus",
+    "tests": {
+      "chat": {
+        "status": "✅",
+        "time_ms": 13311.9,
+        "tokens": 1004,
+        "speed": 75.42
+      },
+      "code": {
+        "status": "✅",
+        "time_ms": 4067.55,
+        "tokens": 207,
+        "speed": 50.89
+      },
+      "reasoning": {
+        "status": "✅",
+        "time_ms": 13406.08,
+        "tokens": 1058,
+        "speed": 78.92
+      }
+    }
+  },
+  {
+    "provider": "bailian",
+    "model": "kimi-k2.5",
+    "tests": {
+      "chat": {
+        "status": "✅",
+        "time_ms": 1867.83,
+        "tokens": 28,
+        "speed": 14.99
+      },
+      "code": {
+        "status": "✅",
+        "time_ms": 4705.75,
+        "tokens": 121,
+        "speed": 25.71
+      },
+      "reasoning": {
+        "status": "✅",
+        "time_ms": 4678.84,
+        "tokens": 137,
+        "speed": 29.28
+      }
+    }
+  },
+  {
+    "provider": "bailian",
+    "model": "MiniMax-M2.5",
+    "tests": {
+      "chat": {
+        "status": "✅",
+        "time_ms": 2173.4,
+        "tokens": 98,
+        "speed": 45.09
+      },
+      "code": {
+        "status": "✅",
+        "time_ms": 5465.8,
+        "tokens": 470,
+        "speed": 85.99
+      },
+      "reasoning": {
+        "status": "✅",
+        "time_ms": 8382.28,
+        "tokens": 800,
+        "speed": 95.44
+      }
+    }
+  },
+  {
+    "provider": "bailian",
+    "model": "qwen3-coder-plus",
+    "tests": {
+      "chat": {
+        "status": "✅",
+        "time_ms": 3841.1,
+        "tokens": 47,
+        "speed": 12.24
+      },
+      "code": {
+        "status": "✅",
+        "time_ms": 2807.03,
+        "tokens": 121,
+        "speed": 43.11
+      },
+      "reasoning": {
+        "status": "✅",
+        "time_ms": 4092.27,
+        "tokens": 137,
+        "speed": 33.48
+      }
+    }
+  },
+  {
+    "provider": "bailian",
+    "model": "glm-4.7",
+    "tests": {
+      "chat": {
+        "status": "✅",
+        "time_ms": 7503.63,
+        "tokens": 421,
+        "speed": 56.11
+      },
+      "code": {
+        "status": "❌",
+        "error": "HTTPSConnectionPool(host='coding.dashscope.aliyunc"
+      },
+      "reasoning": {
+        "status": "❌",
+        "error": "HTTPSConnectionPool(host='coding.dashscope.aliyunc"
+      }
+    }
+  },
+  {
+    "provider": "nvidia",
+    "model": "z-ai/glm4.7",
+    "tests": {
+      "chat": {
+        "status": "✅",
+        "time_ms": 9341.65,
+        "tokens": 113,
+        "speed": 12.1
+      },
+      "code": {
+        "status": "✅",
+        "time_ms": 3173.98,
+        "tokens": 118,
+        "speed": 37.18
+      },
+      "reasoning": {
+        "status": "✅",
+        "time_ms": 6796.12,
+        "tokens": 130,
+        "speed": 19.13
+      }
+    }
+  },
+  {
+    "provider": "nvidia",
+    "model": "minimaxai/minimax-m2.1",
+    "tests": {
+      "chat": {
+        "status": "❌",
+        "error": "HTTPSConnectionPool(host='integrate.api.nvidia.com"
+      },
+      "code": {
+        "status": "❌",
+        "error": "HTTPSConnectionPool(host='integrate.api.nvidia.com"
+      },
+      "reasoning": {
+        "status": "✅",
+        "time_ms": 5582.61,
+        "tokens": 162,
+        "speed": 29.02
+      }
+    }
+  },
+  {
+    "provider": "groq",
+    "model": "llama-3.3-70b-versatile",
+    "tests": {
+      "chat": {
+        "status": "✅",
+        "time_ms": 464.11,
+        "tokens": 74,
+        "speed": 159.44
+      },
+      "code": {
+        "status": "✅",
+        "time_ms": 591.17,
+        "tokens": 149,
+        "speed": 252.04
+      },
+      "reasoning": {
+        "status": "✅",
+        "time_ms": 741.34,
+        "tokens": 162,
+        "speed": 218.52
+      }
+    }
+  }
+]

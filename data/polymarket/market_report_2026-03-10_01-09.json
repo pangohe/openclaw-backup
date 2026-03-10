@@ -1,0 +1,87 @@
+{
+  "timestamp": "2026-03-10T01:09:00+08:00",
+  "source": "Polymarket Crypto Markets",
+  "markets": {
+    "btc_5min": {
+      "event": "BTC 5 Minute Up or Down",
+      "outcomes": {
+        "up": { "probability": 81, "volume": "42M" },
+        "down": { "probability": 19, "volume": "42M" }
+      },
+      "status": "Live",
+      "signal": "STRONG_BULLISH"
+    },
+    "bitcoin_march_price": {
+      "event": "What price will Bitcoin hit in March?",
+      "outcomes": {
+        "above_80k": { "probability": 23 },
+        "above_75k": { "probability": 45 },
+        "above_73k_mar9": { "probability": 2 },
+        "above_72k_mar9": { "probability": 2 }
+      },
+      "status": "Live",
+      "signal": "MODERATE_BULLISH"
+    },
+    "ethereum_march_price": {
+      "event": "What price will Ethereum hit in March?",
+      "outcomes": {
+        "above_2600": { "probability": 13 },
+        "above_2400": { "probability": 30 }
+      },
+      "status": "Live",
+      "signal": "BEARISH"
+    },
+    "solana_march": {
+      "event": "What price will Solana hit in March?",
+      "outcomes": {
+        "above_110": { "probability": 16 },
+        "above_100": { "probability": 39 }
+      },
+      "status": "Live",
+      "signal": "MODERATE_BULLISH"
+    },
+    "megaeth": {
+      "event": "MegaETH market cap (FDV) one day after launch",
+      "outcomes": {
+        "above_800m": { "probability": 62, "volume": "13M" },
+        "above_1b": { "probability": 55, "volume": "13M" }
+      },
+      "airdrop_event": "June 30, 2026: 68% probability",
+      "signal": "BULLISH_FDV"
+    },
+    "opensea_token": {
+      "event": "Will Opensea launch a token by?",
+      "outcomes": {
+        "by_march_31_2026": { "probability": 9 },
+        "by_june_30_2026": { "probability": 74, "volume": "555K" }
+      },
+      "signal": "TOKEN_LIKELY_JUNE"
+    },
+    "fdv_predictions": {
+      "backpack": { "above_100m": 97, "above_200m": 91, "volume": "3M" },
+      "opensea": { "above_100m": 95, "above_300m": 83, "volume": "4M" },
+      "predictfun": { "above_50m": 94, "above_100m": 75, "volume": "2M" },
+      "usdai": { "above_150m": 83, "above_300m": 35, "volume": "2M" },
+      "surf": { "above_50m": 82, "above_100m": 41, "volume": "83K" },
+      "edgex": { "above_700m": 54, "above_1b": 44, "volume": "4M" },
+      "metamask": { "above_700m": 36, "above_1b": 21, "volume": "2M" }
+    }
+  },
+  "analysis": {
+    "overall_sentiment": "MODERATE_BULLISH",
+    "key_observations": [
+      "BTC 5分钟预测显示81%概率上涨，市场情绪强烈看涨",
+      "比特币3月目标价格：75k-80k区间，概率45%",
+      "以太坊价格预期相对保守，2400-2600目标概率较低",
+      "MegaETH FDV市场火热，$13M成交量，62%概率超$800M",
+      "Opensea代币预期在2026年6月底前发布(74%概率)",
+      "多个新代币FDV预测显示高预期：Backpack(91%), Opensea(83%)"
+    ],
+    "arbitrage_opportunities": [],
+    "risk_alerts": [
+      "以太坊短期价格预期低于其他主流币",
+      "Metamask FDV预期较低(36% > $700M)，可能存在价值低估",
+      "Surf代币是新上市场，成交量仅$83K，流动性较低"
+    ]
+  }
+}

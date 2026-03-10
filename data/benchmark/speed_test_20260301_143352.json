@@ -1,0 +1,163 @@
+{
+  "timestamp": "20260301_143352",
+  "models_tested": [
+    "nvidia/z-ai/glm4.7",
+    "nvidia/minimaxai/minimax-m2.1",
+    "groq/llama-3.3-70b-versatile",
+    "coding-aliyuncs/kimi-k2.5",
+    "custom-coding-dashscope-aliyuncs-com/qwen3.5-plus"
+  ],
+  "questions": [
+    "1+1=? (只回答数字)",
+    "写一个 Python Hello World 函数",
+    "广州是哪个省的省会？",
+    "Explain quantum computing in one sentence"
+  ],
+  "results": [
+    {
+      "model": "nvidia/z-ai/glm4.7",
+      "results": [
+        {
+          "question": "1+1=? (只回答数字)",
+          "success": false,
+          "response_time": 4.932,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "写一个 Python Hello World 函数",
+          "success": false,
+          "response_time": 4.878,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "广州是哪个省的省会？",
+          "success": false,
+          "response_time": 4.841,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "Explain quantum computing in one sentence",
+          "success": false,
+          "response_time": 4.815,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        }
+      ]
+    },
+    {
+      "model": "nvidia/minimaxai/minimax-m2.1",
+      "results": [
+        {
+          "question": "1+1=? (只回答数字)",
+          "success": false,
+          "response_time": 4.78,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "写一个 Python Hello World 函数",
+          "success": false,
+          "response_time": 4.82,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "广州是哪个省的省会？",
+          "success": false,
+          "response_time": 4.769,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "Explain quantum computing in one sentence",
+          "success": false,
+          "response_time": 4.831,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        }
+      ]
+    },
+    {
+      "model": "groq/llama-3.3-70b-versatile",
+      "results": [
+        {
+          "question": "1+1=? (只回答数字)",
+          "success": false,
+          "response_time": 4.849,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "写一个 Python Hello World 函数",
+          "success": false,
+          "response_time": 4.906,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "广州是哪个省的省会？",
+          "success": false,
+          "response_time": 4.782,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "Explain quantum computing in one sentence",
+          "success": false,
+          "response_time": 4.78,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        }
+      ]
+    },
+    {
+      "model": "coding-aliyuncs/kimi-k2.5",
+      "results": [
+        {
+          "question": "1+1=? (只回答数字)",
+          "success": false,
+          "response_time": 4.817,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "写一个 Python Hello World 函数",
+          "success": false,
+          "response_time": 4.884,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "广州是哪个省的省会？",
+          "success": false,
+          "response_time": 4.898,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "Explain quantum computing in one sentence",
+          "success": false,
+          "response_time": 4.783,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        }
+      ]
+    },
+    {
+      "model": "custom-coding-dashscope-aliyuncs-com/qwen3.5-plus",
+      "results": [
+        {
+          "question": "1+1=? (只回答数字)",
+          "success": false,
+          "response_time": 4.844,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "写一个 Python Hello World 函数",
+          "success": false,
+          "response_time": 4.875,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "广州是哪个省的省会？",
+          "success": false,
+          "response_time": 4.862,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        },
+        {
+          "question": "Explain quantum computing in one sentence",
+          "success": false,
+          "response_time": 4.79,
+          "error": "[plugins] plugins.allow is empty; discovered non-bundled plugins may auto-load: qqbot (/root/.openclaw/extensions/qqbot/index.ts). Set plugins.allow to explicit trusted ids.\nerror: unknown command 'se"
+        }
+      ]
+    }
+  ]
+}

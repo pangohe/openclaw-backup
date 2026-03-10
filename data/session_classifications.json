@@ -1,0 +1,1055 @@
+{
+  "timestamp": "2026-03-09T18:01:37.372648",
+  "total_sessions": 61,
+  "statistics": {
+    "by_type": {
+      "normal": 61
+    },
+    "by_channel": {
+      "unknown": 61
+    },
+    "by_age": {
+      "unknown": 61
+    },
+    "total_size_kb": 704.04
+  },
+  "classifications": [
+    {
+      "session_id": "4971c8b3-958a-4f5d-9008-4aa0d7b91a1e",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-01T12:00:09.218Z",
+      "message_count": 14,
+      "size_kb": 9.54,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-01T12:01:58.222Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "c4e7c045-0771-416a-8505-fb470d295542",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T07:52:33.222Z",
+      "message_count": 10,
+      "size_kb": 5.03,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T07:53:37.096Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "357810bf-9fa4-4477-ad52-60bfd6e6a003",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T09:52:33.261Z",
+      "message_count": 14,
+      "size_kb": 7.51,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T09:53:26.299Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "5abc22fd-2bf8-42f3-bbe1-09b40151d5ae",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T07:17:33.237Z",
+      "message_count": 10,
+      "size_kb": 4.69,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T07:24:00.538Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "5c583ea9-218c-48b7-9663-f10c98df0acd",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T07:02:33.329Z",
+      "message_count": 10,
+      "size_kb": 5.18,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T07:08:46.282Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "70fada6e-daf3-41f4-869b-5c4175d4e68a",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-01T13:03:42.711Z",
+      "message_count": 14,
+      "size_kb": 12.34,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-01T13:04:41.574Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "1c9a8773-4956-4adb-b4a4-3cf7196b94f4",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:07:33.264Z",
+      "message_count": 10,
+      "size_kb": 4.6,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:08:22.989Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "80df6de0-3e35-4a8e-a709-b0be7c6e1423",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:12:33.282Z",
+      "message_count": 16,
+      "size_kb": 9.3,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:15:09.918Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "9c987bec-fc9a-4694-98ac-b5db31a8febf",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:42:33.345Z",
+      "message_count": 16,
+      "size_kb": 9.33,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:44:28.427Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "0a8056d8-ac7a-48c2-8e2d-ba2771fe3580",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:12:33.289Z",
+      "message_count": 12,
+      "size_kb": 7.41,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:13:14.212Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "a6b25841-d438-44df-bcfa-81bd62367a5f",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:27:33.251Z",
+      "message_count": 10,
+      "size_kb": 5.25,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:28:23.871Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "f8be5ec7-c1bb-4242-a678-f7e2c4dfa0a5",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T08:22:33.238Z",
+      "message_count": 13,
+      "size_kb": 6.1,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T08:32:33.255Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "7d5efe46-4507-45cf-bd3f-9ed443d7f67c",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:37:33.313Z",
+      "message_count": 20,
+      "size_kb": 18.0,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:39:38.332Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "78a2467f-51fc-4834-8612-6adcfd741124",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T08:42:33.233Z",
+      "message_count": 7,
+      "size_kb": 2.03,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T08:52:33.255Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "2558c303-3f8b-486d-a07c-43a2d13d301f",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:47:33.246Z",
+      "message_count": 9,
+      "size_kb": 4.35,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:47:53.744Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "adac9af9-d595-45f0-8ca9-d5aea0e88738",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T07:12:33.221Z",
+      "message_count": 10,
+      "size_kb": 5.01,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T07:13:28.927Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "14a84a5d-0e24-478e-afe0-4031a4facaa8",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:12:33.314Z",
+      "message_count": 12,
+      "size_kb": 6.22,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:13:48.554Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "c3b0b02a-2526-46d2-ab03-8270b1f12451",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T09:37:33.239Z",
+      "message_count": 9,
+      "size_kb": 4.53,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T09:38:11.762Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "4199a5ff-22ba-4b20-90d6-62b1c971edec",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:27:33.285Z",
+      "message_count": 10,
+      "size_kb": 4.44,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:29:23.725Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "d7710bef-21a9-4d85-99e4-82ff2e0c9532",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:32:33.267Z",
+      "message_count": 10,
+      "size_kb": 5.11,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:32:43.661Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "a569f4af-59a8-4bd1-b7e2-f85b7e6c96fd",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:17:33.307Z",
+      "message_count": 10,
+      "size_kb": 4.98,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:18:46.998Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "30e03cb2-f83d-4a76-8728-a42bbd81cda4",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:32:33.441Z",
+      "message_count": 10,
+      "size_kb": 4.78,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:35:16.372Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "8205e47a-363c-4c85-95f8-247db6090ebd",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:52:33.341Z",
+      "message_count": 10,
+      "size_kb": 5.2,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:52:46.720Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "01774a34-29d6-440b-b6be-8511db61980b",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:27:33.270Z",
+      "message_count": 10,
+      "size_kb": 4.5,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:27:59.399Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "4d4993be-4814-46b6-beaa-80523eba25ba",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T09:58:27.414Z",
+      "message_count": 19,
+      "size_kb": 36.85,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T10:01:01.385Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "35af6406-a0ae-4039-a9ba-2050a686601c",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:02:33.253Z",
+      "message_count": 10,
+      "size_kb": 4.53,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:04:06.804Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "409ea1b4-7ee4-40d0-8e61-12fc65aa1a07",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:22:33.316Z",
+      "message_count": 10,
+      "size_kb": 4.71,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:22:54.499Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "e10f35b5-350f-4437-9de0-7e8c5283f314",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:37:33.280Z",
+      "message_count": 10,
+      "size_kb": 4.71,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:38:17.902Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "0fc6a94e-f7bf-484a-9db5-39c3dff816e9",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:57:33.251Z",
+      "message_count": 9,
+      "size_kb": 4.03,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:57:47.765Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "25201385-8efd-4da4-b320-fbb432c82fda",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T09:57:33.243Z",
+      "message_count": 10,
+      "size_kb": 4.76,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T09:58:13.604Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "fa83799c-9454-4a3e-a3c1-b72861c80f14",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T07:37:33.244Z",
+      "message_count": 10,
+      "size_kb": 5.11,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T07:46:44.448Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "909121f4-46ba-4621-965d-472063bc92a3",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:42:33.263Z",
+      "message_count": 12,
+      "size_kb": 7.34,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:44:22.501Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "8ca8aa3f-fb8a-4958-803b-9dc6e5f49767",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T07:47:33.226Z",
+      "message_count": 18,
+      "size_kb": 12.76,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T07:51:44.078Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "216bb633-ebd5-4c20-bd5f-dd8e1e120e94",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T07:27:33.308Z",
+      "message_count": 10,
+      "size_kb": 5.44,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T07:32:08.470Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "617ef6d8-e1cf-4452-b495-d085c0f2f39f",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T09:56:43.534Z",
+      "message_count": 32,
+      "size_kb": 79.71,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T10:01:37.322Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "b1500252-da78-4862-82fd-db03f23cfd21",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:03:39.313Z",
+      "message_count": 10,
+      "size_kb": 4.79,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:07:38.859Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "bd055758-eb35-417f-807a-c192160ec8d6",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T09:35:38.506Z",
+      "message_count": 9,
+      "size_kb": 3.97,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T09:36:04.534Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "1ec0ab7e-004d-4995-ae33-2e334560ea87",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:57:33.329Z",
+      "message_count": 10,
+      "size_kb": 4.9,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:58:52.473Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "da67bb26-9c59-4d96-8d21-88e8833b1431",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:52:33.285Z",
+      "message_count": 10,
+      "size_kb": 4.71,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:52:56.726Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "d8a84012-1535-4450-99ce-98841c25e786",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:47:33.333Z",
+      "message_count": 12,
+      "size_kb": 6.42,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:49:37.703Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "1b944963-66ed-4946-9dcd-fa5865ad3891",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:17:33.638Z",
+      "message_count": 10,
+      "size_kb": 5.15,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:18:02.329Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "e54bb7b7-0fdf-416b-af2f-d12dc417a97b",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:07:39.358Z",
+      "message_count": 6,
+      "size_kb": 3.93,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:08:00.949Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "352b4f2f-fc0c-4fe8-86f5-3f270ffeed8e",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:22:33.287Z",
+      "message_count": 12,
+      "size_kb": 6.61,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:23:05.333Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "35504610-b82f-48d8-b45c-e1b04f5a7311",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-01T13:00:00.109Z",
+      "message_count": 8,
+      "size_kb": 5.23,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-01T13:00:21.347Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "5bac2847-ba81-4cdb-b589-7570af8679c6",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T07:32:33.221Z",
+      "message_count": 12,
+      "size_kb": 6.58,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T07:37:14.991Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "b2c4bb35-97d5-4a36-b57a-99f028ac68cf",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:08:29.414Z",
+      "message_count": 12,
+      "size_kb": 14.37,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:09:24.460Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "fe5bf701-b844-4f82-9be8-6e19ee3327d4",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:02:33.358Z",
+      "message_count": 10,
+      "size_kb": 5.04,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:04:15.189Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "7ddd141d-4871-4ac1-b73c-e050a67ad927",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T08:07:33.257Z",
+      "message_count": 10,
+      "size_kb": 4.14,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T08:17:33.276Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "af47d579-b5f2-47fa-b146-4e32550324b9",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:09:47.093Z",
+      "message_count": 17,
+      "size_kb": 105.96,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:27:27.217Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "b24ba14d-dffc-487d-b7bb-c219d51845cf",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:52:33.362Z",
+      "message_count": 20,
+      "size_kb": 14.99,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:54:03.906Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "0d354bca-37c1-484b-8625-d0300a726b6c",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:22:33.289Z",
+      "message_count": 10,
+      "size_kb": 4.76,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:23:09.030Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "9081bc4b-abc5-4dee-90d2-094fe1f7e684",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:57:33.370Z",
+      "message_count": 10,
+      "size_kb": 5.33,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:58:37.993Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "ca770a88-cf65-405a-9b26-a28206b9265d",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T08:37:33.226Z",
+      "message_count": 9,
+      "size_kb": 4.28,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T08:38:20.143Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "a0117695-1106-400f-bf2d-1be8083f6613",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T04:37:33.239Z",
+      "message_count": 22,
+      "size_kb": 112.54,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T04:38:57.852Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "e05d2839-22e4-42a5-8c22-9bc325c5e2ea",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:17:33.266Z",
+      "message_count": 12,
+      "size_kb": 6.44,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:17:57.233Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "f73238ab-cbfb-49e2-a5ff-35e5c10eebcc",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:42:33.417Z",
+      "message_count": 9,
+      "size_kb": 4.46,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:42:59.770Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "fba91055-47d4-4fc2-8d9a-7e151ca21fac",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T06:07:33.304Z",
+      "message_count": 12,
+      "size_kb": 6.72,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T06:08:48.345Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "b5bdecc3-530d-42c1-87ac-bbc75b382507",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:47:33.287Z",
+      "message_count": 16,
+      "size_kb": 8.93,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:49:05.199Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "1406085e-8de9-4fe2-a9e9-7dba176c446c",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T09:42:33.234Z",
+      "message_count": 22,
+      "size_kb": 17.73,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T09:50:02.332Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "a2501095-92e3-410b-b4a3-4adacd376322",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T07:57:33.228Z",
+      "message_count": 10,
+      "size_kb": 4.76,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T08:05:25.844Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    },
+    {
+      "session_id": "4ad58771-4528-4578-83d3-9a1705e750bb",
+      "type": "normal",
+      "channel": "unknown",
+      "created_at": "2026-03-09T05:32:33.276Z",
+      "message_count": 11,
+      "size_kb": 5.92,
+      "description": "正常对话会话",
+      "last_activity": "2026-03-09T05:33:00.286Z",
+      "channels_detected": [],
+      "role_distribution": {
+        "user": 0,
+        "assistant": 0,
+        "system": 0
+      },
+      "age_category": "unknown"
+    }
+  ]
+}

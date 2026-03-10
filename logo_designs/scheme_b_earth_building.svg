@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a365d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e67e22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" fill="#ffffff"/>
+  <!-- 地球+建筑轮廓 -->
+  <g transform="translate(50, 25)">
+    <!-- 抽象地球弧线 -->
+    <circle cx="50" cy="50" r="45" fill="none" stroke="url(#grad2)" stroke-width="8"/>
+    <ellipse cx="50" cy="50" rx="20" ry="45" fill="none" stroke="url(#grad2)" stroke-width="4"/>
+    <!-- 建筑剪影（向上托举） -->
+    <polygon points="50,60 30,130 70,130" fill="url(#grad2)"/>
+    <rect x="42" y="90" width="16" height="40" fill="#1a365d"/>
+  </g>
+</svg>

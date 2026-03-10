@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-03-01T18:01:02.547769",
+  "type": "crypto_trend",
+  "sent": true,
+  "channel": "telegram",
+  "message": "\ud83d\udea8 加密货币重要变化：\n\n\ud83d\udcc8 Ethereum (ETH): $1,980.46 (+6.99%)\n\ud83d\udcc8 BNB (BNB): $620.01 (+5.04%)\n\ud83d\udcc8 XRP (XRP): $1.37 (+7.69%)\n\ud83d\udcc8 Solana (SOL): $84.96 (+8.63%)\n\ud83d\udcc8 Dogecoin (DOGE): $0.09 (+6.09%)\n\ud83d\udcc8 Cardano (ADA): $0.28 (+7.05%)\n\ud83d\udcc8 Polkadot (DOT): $1.57 (+7.31%)\n"
+}

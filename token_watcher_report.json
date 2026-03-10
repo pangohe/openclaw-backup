@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-03-01T14:34:30+08:00",
+  "token_usage_percent": 35.6,
+  "message_count": 178,
+  "last_warning_percent": 78.4,
+  "alerts_sent": 16,
+  "status": "NORMAL",
+  "threshold_warning": 70.0,
+  "alert_triggered": false,
+  "note": "Token usage is well below threshold. No action needed."
+}

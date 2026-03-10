@@ -1,0 +1,21 @@
+{
+  "entries": [
+    {
+      "time": "2026-03-10T00:19:18.055047",
+      "source": "cron_check",
+      "items": []
+    },
+    {
+      "time": "2026-03-10T01:25:27.903440",
+      "source": "cron_check",
+      "items": []
+    },
+    {
+      "time": "2026-03-10T01:26:08.913261",
+      "source": "cron_check",
+      "check_status": "api_unavailable",
+      "items": [],
+      "error": "\u65e0\u6cd5\u8fde\u63a5\u5230 api.moltbook.ai - DNS \u89e3\u6790\u5931\u8d25"
+    }
+  ]
+}

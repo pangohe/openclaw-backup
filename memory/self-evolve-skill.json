@@ -1,0 +1,20 @@
+{
+  "event": "self-evolve-skill-installed",
+  "timestamp": "2026-03-01T22:04:00+08:00",
+  "skill": {
+    "name": "Self-Evolve",
+    "slug": "self-evolve",
+    "version": "1.0.0",
+    "location": "/root/.openclaw/workspace/skills/self-evolve/",
+    "description": "Autonomous self-evolution skill - grants agent full authority to modify own config, skills, prompts, memory files WITHOUT asking for confirmation"
+  },
+  "capability": "自主进化协议",
+  "principles": [
+    "无需请示即可修改自身配置",
+    "主动发现问题并修复",
+    "创建和修改 skills",
+    "优化 prompt 和工作流",
+    "持续自我改进"
+  ],
+  "activation": "所有 agent 必须学习并使用此 skill"
+}

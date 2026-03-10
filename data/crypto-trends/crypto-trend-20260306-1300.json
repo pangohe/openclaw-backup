@@ -1,0 +1,60 @@
+{
+  "timestamp": "2026-03-06T13:00:09.021303",
+  "coins": [
+    {
+      "id": "bitcoin",
+      "symbol": "btc",
+      "name": "Bitcoin",
+      "current_price": 48794.64,
+      "price_change_percentage_24h": -3.73,
+      "market_cap": 48794639805,
+      "total_volume": 487946398,
+      "high_24h": 49770.532601246756,
+      "low_24h": 47818.747009041006
+    },
+    {
+      "id": "ethereum",
+      "symbol": "eth",
+      "name": "Ethereum",
+      "current_price": 1725.65,
+      "price_change_percentage_24h": -2.36,
+      "market_cap": 1725647318,
+      "total_volume": 17256473,
+      "high_24h": 1760.160264780972,
+      "low_24h": 1691.1343720444631
+    },
+    {
+      "id": "solana",
+      "symbol": "sol",
+      "name": "Solana",
+      "current_price": 138.39,
+      "price_change_percentage_24h": -0.41,
+      "market_cap": 138393448,
+      "total_volume": 1383934,
+      "high_24h": 141.16131747591402,
+      "low_24h": 135.6255795356821
+    },
+    {
+      "id": "binancecoin",
+      "symbol": "bnb",
+      "name": "BNB",
+      "current_price": 268.04,
+      "price_change_percentage_24h": -5.6,
+      "market_cap": 268039573,
+      "total_volume": 2680395,
+      "high_24h": 273.40036466888733,
+      "low_24h": 262.6787817406957
+    },
+    {
+      "id": "ripple",
+      "symbol": "xrp",
+      "name": "XRP",
+      "current_price": 0.51,
+      "price_change_percentage_24h": -1.97,
+      "market_cap": 511847,
+      "total_volume": 5118,
+      "high_24h": 0.5220847535935488,
+      "low_24h": 0.5016108416879194
+    }
+  ]
+}

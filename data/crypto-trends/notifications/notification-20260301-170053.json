@@ -1,0 +1,7 @@
+{
+  "created_at": "2026-03-01T17:00:53.827903",
+  "type": "crypto_trend",
+  "sent": false,
+  "channel": "telegram",
+  "message": "\ud83d\udea8 \u52a0\u5bc6\u8d27\u5e01\u91cd\u8981\u53d8\u5316\uff1a\n\n\ud83d\udcc8 Ethereum (ETH): $1,986.09 (+7.27%)\n\ud83d\udcc8 XRP (XRP): $1.38 (+7.34%)\n\ud83d\udcc8 Solana (SOL): $85.25 (+9.27%)\n\ud83d\udcc8 Dogecoin (DOGE): $0.09 (+5.62%)\n\ud83d\udcc8 Cardano (ADA): $0.28 (+6.91%)\n\ud83d\udcc8 Polkadot (DOT): $1.58 (+6.65%)\n"
+}

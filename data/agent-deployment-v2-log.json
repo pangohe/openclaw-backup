@@ -1,0 +1,85 @@
+{
+  "deployment": {
+    "version": "V2 - 优化版（含Dashboard应急通道）",
+    "timestamp": "2026-03-01T15:38:00Z",
+    "agents": [
+      {
+        "name": "细佬",
+        "channel": "qqbot",
+        "role": "系统管家",
+        "priority": "high",
+        "status": "deployed"
+      },
+      {
+        "name": "叻仔", 
+        "channel": "telegram",
+        "role": "投资顾问",
+        "priority": "high",
+        "status": "deployed"
+      },
+      {
+        "name": "Natalie",
+        "channel": "feishu", 
+        "role": "工作助理",
+        "priority": "medium",
+        "status": "deployed"
+      },
+      {
+        "name": "Dashboard",
+        "channel": "dashboard",
+        "role": "系统守护者",
+        "priority": "emergency",
+        "status": "deployed"
+      }
+    ],
+    "scripts": [
+      {
+        "name": "cross_agent_messenger.py",
+        "path": "/root/.openclaw/workspace/scripts/cross_agent_messenger.py",
+        "status": "tested"
+      },
+      {
+        "name": "weekly_agents_sync.py",
+        "path": "/root/.openclaw/workspace/scripts/weekly_agents_sync.py", 
+        "status": "tested"
+      },
+      {
+        "name": "unified_token_manager.py",
+        "path": "/root/.openclaw/workspace/scripts/unified_token_manager.py",
+        "status": "tested",
+        "exclusive": "Dashboard Agent 专属"
+      },
+      {
+        "name": "emergency_compressor.py",
+        "path": "/root/.openclaw/workspace/scripts/emergency_compressor.py",
+        "status": "tested",
+        "exclusive": "Dashboard Agent 专属"
+      },
+      {
+        "name": "priority_compressor.py",
+        "path": "/root/.openclaw/workspace/scripts/priority_compressor.py",
+        "status": "tested",
+        "exclusive": "Dashboard Agent 专属"
+      }
+    ],
+    "token_watcher": {
+      "version": "V3",
+      "status": "active",
+      "channels": ["dashboard", "qqbot", "telegram", "feishu"],
+      "compression_strategy": "priority_based"
+    },
+    "features": {
+      "emergency_channel": true,
+      "unified_token_management": true,
+      "agent_failover": true,
+      "load_balancing": true,
+      "priority_compression": true
+    },
+    "next_steps": [
+      "手动配置 Cron 任务",
+      "测试跨 Agent 通信",
+      "24小时监控测试",
+      "Dashboard 应急通道压力测试"
+    ]
+  }
+}

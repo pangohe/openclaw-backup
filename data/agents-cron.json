@@ -1,0 +1,14 @@
+{
+  "jobs": [
+    {
+      "name": "Token Watcher V3",
+      "schedule": "*/5 * * * *",
+      "command": "python3 /root/.openclaw/workspace/scripts/token_watcher_v2.py --quiet"
+    },
+    {
+      "name": "Weekly Agents Sync",
+      "schedule": "0 3 * * 1",
+      "command": "python3 /root/.openclaw/workspace/scripts/weekly_agents_sync.py"
+    }
+  ]
+}

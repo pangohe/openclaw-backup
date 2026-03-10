@@ -1,0 +1,86 @@
+{
+  "all_results": [
+    {
+      "min_confidence": 60,
+      "bet_amount": 25,
+      "win_rate": 60.37735849056604,
+      "total_profit": -872.2222222222206,
+      "roi": -87.22222222222206,
+      "total_trades": 106,
+      "timestamp": "2026-03-09T20:52:59.887543"
+    },
+    {
+      "min_confidence": 60,
+      "bet_amount": 50,
+      "win_rate": 54.90196078431373,
+      "total_profit": -994.4444444444447,
+      "roi": -99.44444444444447,
+      "total_trades": 51,
+      "timestamp": "2026-03-09T20:53:19.464749"
+    },
+    {
+      "min_confidence": 70,
+      "bet_amount": 25,
+      "win_rate": 60.37735849056604,
+      "total_profit": -872.2222222222206,
+      "roi": -87.22222222222206,
+      "total_trades": 106,
+      "timestamp": "2026-03-09T20:53:39.208372"
+    },
+    {
+      "min_confidence": 70,
+      "bet_amount": 50,
+      "win_rate": 54.90196078431373,
+      "total_profit": -994.4444444444447,
+      "roi": -99.44444444444447,
+      "total_trades": 51,
+      "timestamp": "2026-03-09T20:53:58.534141"
+    },
+    {
+      "min_confidence": 80,
+      "bet_amount": 25,
+      "win_rate": 60.37735849056604,
+      "total_profit": -872.2222222222206,
+      "roi": -87.22222222222206,
+      "total_trades": 106,
+      "timestamp": "2026-03-09T20:54:17.991755"
+    },
+    {
+      "min_confidence": 80,
+      "bet_amount": 50,
+      "win_rate": 54.90196078431373,
+      "total_profit": -994.4444444444447,
+      "roi": -99.44444444444447,
+      "total_trades": 51,
+      "timestamp": "2026-03-09T20:54:37.643701"
+    },
+    {
+      "min_confidence": 90,
+      "bet_amount": 25,
+      "win_rate": 0,
+      "total_profit": 0,
+      "roi": 0,
+      "total_trades": 0,
+      "timestamp": "2026-03-09T20:54:56.882496"
+    },
+    {
+      "min_confidence": 90,
+      "bet_amount": 50,
+      "win_rate": 0,
+      "total_profit": 0,
+      "roi": 0,
+      "total_trades": 0,
+      "timestamp": "2026-03-09T20:55:16.571094"
+    }
+  ],
+  "best_strategy": {
+    "min_confidence": 60,
+    "bet_amount": 25,
+    "win_rate": 60.37735849056604,
+    "total_profit": -872.2222222222206,
+    "roi": -87.22222222222206,
+    "total_trades": 106,
+    "timestamp": "2026-03-09T20:52:59.887543"
+  },
+  "timestamp": "2026-03-09T20:55:16.571178"
+}

@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-03-10T13:11:27.964608",
+  "last_check": "2026-03-10T13:11:27.964591",
+  "sessions": {
+    "1d0786db-45d8-4e62-9966-a63d7b551dc0.jsonl": {
+      "last_compression": "2026-03-01T14:06:33.198532",
+      "channel": "default"
+    },
+    "4e0152bb-c722-4357-ac00-87d31362b311.jsonl": {
+      "last_compression": "2026-03-01T20:55:08.908150",
+      "channel": "dashboard",
+      "priority": "emergency"
+    },
+    "2ea5280b-42d0-4e90-8b4f-fe825603f3ef.jsonl": {
+      "last_compression": "2026-03-09T21:40:07.330069",
+      "channel": "dashboard",
+      "priority": "emergency"
+    }
+  },
+  "compressions": [
+    {
+      "time": "2026-03-01T14:06:33.197955",
+      "session": "1d0786db-45d8-4e62-9966-a63d7b551dc0.jsonl",
+      "channel": "default",
+      "original": 20,
+      "compressed": 20,
+      "saved_percent": 0.0,
+      "keywords": 0
+    },
+    {
+      "time": "2026-03-01T14:38:14.311729",
+      "session": "4e0152bb-c722-4357-ac00-87d31362b311.jsonl",
+      "channel": "default",
+      "original": 178,
+      "compressed": 20,
+      "saved_percent": 82.5100913192194,
+      "keywords": 0
+    },
+    {
+      "time": "2026-03-01T14:51:15.468204",
+      "session": "4e0152bb-c722-4357-ac00-87d31362b311.jsonl",
+      "channel": "default",
+      "original": 26,
+      "compressed": 20,
+      "saved_percent": 1.8713380991052848,
+      "keywords": 0
+    },
+    {
+      "time": "2026-03-01T19:05:08.113335",
+      "session": "2ea5280b-42d0-4e90-8b4f-fe825603f3ef.jsonl",
+      "channel": "dashboard",
+      "original": 364,
+      "compressed": 5,
+      "saved_percent": 98.6,
+      "keywords": [],
+      "priority": "emergency"
+    },
+    {
+      "time": "2026-03-01T20:50:09.464032",
+      "session": "2ea5280b-42d0-4e90-8b4f-fe825603f3ef.jsonl",
+      "channel": "dashboard",
+      "original": 2152,
+      "compressed": 5,
+      "saved_percent": 99.8,
+      "keywords": [],
+      "priority": "emergency"
+    },
+    {
+      "time": "2026-03-01T20:55:08.908133",
+      "session": "4e0152bb-c722-4357-ac00-87d31362b311.jsonl",
+      "channel": "dashboard",
+      "original": 241,
+      "compressed": 10,
+      "saved_percent": 95.9,
+      "keywords": [],
+      "priority": "emergency"
+    },
+    {
+      "time": "2026-03-09T21:40:07.329633",
+      "session": "2ea5280b-42d0-4e90-8b4f-fe825603f3ef.jsonl",
+      "channel": "dashboard",
+      "original": 294,
+      "compressed": 5,
+      "saved_percent": 98.3,
+      "keywords": [],
+      "priority": "emergency"
+    }
+  ]
+}

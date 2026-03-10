@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-03-09T22:24:08.761176",
+  "exchanges": {
+    "binance": {
+      "BTCUSDT": {
+        "price": 69141.0,
+        "exchange": "binance",
+        "timestamp": "2026-03-09T22:24:05.968771"
+      },
+      "ETHUSDT": {
+        "price": 2023.64,
+        "exchange": "binance",
+        "timestamp": "2026-03-09T22:24:05.968784"
+      },
+      "BNBUSDT": {
+        "price": 637.18,
+        "exchange": "binance",
+        "timestamp": "2026-03-09T22:24:05.968796"
+      },
+      "ADAUSDT": {
+        "price": 0.2591,
+        "exchange": "binance",
+        "timestamp": "2026-03-09T22:24:05.968818"
+      },
+      "XRPUSDT": {
+        "price": 1.3675,
+        "exchange": "binance",
+        "timestamp": "2026-03-09T22:24:05.968820"
+      },
+      "MATICUSDT": {
+        "price": 0.3794,
+        "exchange": "binance",
+        "timestamp": "2026-03-09T22:24:05.968843"
+      },
+      "DOGEUSDT": {
+        "price": 0.09179,
+        "exchange": "binance",
+        "timestamp": "2026-03-09T22:24:05.968852"
+      },
+      "SOLUSDT": {
+        "price": 85.2,
+        "exchange": "binance",
+        "timestamp": "2026-03-09T22:24:05.968878"
+      },
+      "DOTUSDT": {
+        "price": 1.504,
+        "exchange": "binance",
+        "timestamp": "2026-03-09T22:24:05.968898"
+      },
+      "AVAXUSDT": {
+        "price": 9.29,
+        "exchange": "binance",
+        "timestamp": "2026-03-09T22:24:05.968911"
+      }
+    },
+    "okx": {
+      "BTCUSDT": {
+        "price": 69141.5,
+        "exchange": "okx",
+        "timestamp": "2026-03-09T22:24:06.048785"
+      },
+      "ETHUSDT": {
+        "price": 2023.39,
+        "exchange": "okx",
+        "timestamp": "2026-03-09T22:24:06.197823"
+      },
+      "SOLUSDT": {
+        "price": 85.19,
+        "exchange": "okx",
+        "timestamp": "2026-03-09T22:24:06.350301"
+      },
+      "BNBUSDT": {
+        "price": 637.2,
+        "exchange": "okx",
+        "timestamp": "2026-03-09T22:24:06.500985"
+      },
+      "XRPUSDT": {
+        "price": 1.3677,
+        "exchange": "okx",
+        "timestamp": "2026-03-09T22:24:06.653235"
+      },
+      "ADAUSDT": {
+        "price": 0.259,
+        "exchange": "okx",
+        "timestamp": "2026-03-09T22:24:06.803575"
+      },
+      "DOGEUSDT": {
+        "price": 0.09177,
+        "exchange": "okx",
+        "timestamp": "2026-03-09T22:24:06.954643"
+      },
+      "DOTUSDT": {
+        "price": 1.505,
+        "exchange": "okx",
+        "timestamp": "2026-03-09T22:24:07.106711"
+      },
+      "AVAXUSDT": {
+        "price": 9.298,
+        "exchange": "okx",
+        "timestamp": "2026-03-09T22:24:07.411282"
+      }
+    }
+  },
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "BNBUSDT",
+    "XRPUSDT",
+    "ADAUSDT",
+    "DOGEUSDT",
+    "DOTUSDT",
+    "MATICUSDT",
+    "AVAXUSDT"
+  ]
+}

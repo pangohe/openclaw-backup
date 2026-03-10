@@ -1,0 +1,9 @@
+{
+  "price": 69230.27,
+  "timestamp": "2026-03-10T03:26:45.067516",
+  "klines_count": 254,
+  "signal": "HOLD",
+  "confidence": 0.5,
+  "reason": "Stable movement (-0.02%)",
+  "price_change_pct": -0.02
+}

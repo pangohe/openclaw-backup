@@ -1,0 +1,62 @@
+{
+  "check_time": "2026-03-10T00:08:38.977818",
+  "total_markets_checked": 20,
+  "crypto_events_count": 6,
+  "crypto_events": [
+    {
+      "name": "Will BTC break $15k before 2021?",
+      "slug": "will-btc-break-15k-before-2021-1",
+      "probability": 0.5,
+      "volume": 224706.488667,
+      "end_date": "2021-01-01T00:00:00Z",
+      "category": "Crypto",
+      "url": "https://polymarket.com/market/will-btc-break-15k-before-2021-1"
+    },
+    {
+      "name": "Will Coinbase begin publicly trading before Jan 1, 2021?",
+      "slug": "will-coinbase-begin-publicly-trading-before-jan-1-2021",
+      "probability": 0.5,
+      "volume": 116803.377183,
+      "end_date": "2021-01-02T00:00:00Z",
+      "category": "Crypto",
+      "url": "https://polymarket.com/market/will-coinbase-begin-publicly-trading-before-jan-1-2021"
+    },
+    {
+      "name": "What will the USD price of Filecoin ($FIL) be on November 17th, 2020?",
+      "slug": "what-will-the-usd-price-of-filecoin-fil-be-on-november-17th-2020",
+      "probability": 0.5,
+      "volume": 69947.098531,
+      "end_date": "2020-11-17T00:00:00Z",
+      "category": "Crypto",
+      "url": "https://polymarket.com/market/what-will-the-usd-price-of-filecoin-fil-be-on-november-17th-2020"
+    },
+    {
+      "name": "What will the price of Bitcoin be on November 4th, 2020?",
+      "slug": "what-will-the-price-of-bitcoin-be-on-november-4th-2020",
+      "probability": 0.5,
+      "volume": 59755.804763,
+      "end_date": "2020-11-04T00:00:00Z",
+      "category": "Crypto",
+      "url": "https://polymarket.com/market/what-will-the-price-of-bitcoin-be-on-november-4th-2020"
+    },
+    {
+      "name": "What will the total value locked (TVL) in DeFi be at the end of 2020, according to DefiPulse?",
+      "slug": "what-will-the-total-value-locked-tvl-in-defi-be-at-the-end-of-2020-according-to-defipulse",
+      "probability": 0.5,
+      "volume": 46944.579746,
+      "end_date": "2021-01-02T00:00:00Z",
+      "category": "Crypto",
+      "url": "https://polymarket.com/market/what-will-the-total-value-locked-tvl-in-defi-be-at-the-end-of-2020-according-to-defipulse"
+    },
+    {
+      "name": "Will Dharma’s Phase 1 Retroactive UNI Distribution proposal pass?",
+      "slug": "will-dharma-s-phase-1-retroactive-uni-distribution-proposal-pass",
+      "probability": 0.5,
+      "volume": 35661.941003,
+      "end_date": "2020-10-31T00:00:00Z",
+      "category": "Crypto",
+      "url": "https://polymarket.com/market/will-dharma-s-phase-1-retroactive-uni-distribution-proposal-pass"
+    }
+  ],
+  "arbitrage_opportunities": []
+}

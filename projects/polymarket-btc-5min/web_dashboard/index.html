@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polymarket BTC 5 分钟量化交易系统</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg-primary: #0f1419;
+            --bg-secondary: #1a1f2e;
+            --bg-card: #242b3d;
+            --text-primary: #ffffff;
+            --text-secondary: #8b949e;
+            --accent-green: #00d09c;
+            --accent-red: #ff5252;
+            --accent-blue: #2962ff;
+            --accent-gold: #ffd700;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 30px;
+            border-bottom: 2px solid var(--accent-blue);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        /* 折叠屏适配 - 双屏布局 */
+        @media (min-width: 1200px) {
+            .dual-screen {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 20px;
+            }
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .stat-value {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+
+        .positive { color: var(--accent-green); }
+        .negative { color: var(--accent-red); }
+        .neutral { color: var(--accent-blue); }
+
+        .card {
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+
+        .card-title {
+            font-size: 18px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--bg-secondary);
+        }
+
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin-top: 20px;
+        }
+
+        .signal-box {
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .signal-text {
+            font-size: 48px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .signal-buy { color: var(--accent-green); }
+        .signal-sell { color: var(--accent-red); }
+        .signal-hold { color: var(--text-secondary); }
+
+        .confidence-bar {
+            width: 100%;
+            height: 8px;
+            background: var(--bg-primary);
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+
+        .confidence-fill {
+            height: 100%;
+            background: linear-gradient(90deg, var(--accent-blue), var(--accent-green));
+            transition: width 0.3s;
+        }
+
+        .trade-list {
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .trade-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px;
+            border-bottom: 1px solid var(--bg-secondary);
+            font-size: 14px;
+        }
+
+        .trade-item:last-child {
+            border-bottom: none;
+        }
+
+        .trade-win { background: rgba(0, 208, 156, 0.1); }
+        .trade-loss { background: rgba(255, 82, 82, 0.1); }
+
+        .progress-ring {
+            width: 120px;
+            height: 120px;
+            margin: 0 auto;
+        }
+
+        .indicators-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .indicator-item {
+            background: var(--bg-secondary);
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .indicator-value {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .indicator-label {
+            color: var(--text-secondary);
+            font-size: 12px;
+        }
+
+        .refresh-btn {
+            background: var(--accent-blue);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .refresh-btn:hover {
+            background: #1e4bd1;
+            transform: translateY(-2px);
+        }
+
+        .auto-refresh {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent-green);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* 三星折叠屏特别优化 */
+        @media (max-width: 768px) {
+            h1 { font-size: 22px; }
+            .stat-value { font-size: 24px; }
+            .signal-text { font-size: 36px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Polymarket BTC 5 分钟量化交易系统</h1>
+            <p class="subtitle">实时信号 · 模拟交易 · 胜率追踪</p>
+            <div class="auto-refresh">
+                <div class="status-dot"></div>
+                <span>自动刷新中 (每 10 秒)</span>
+                <button class="refresh-btn" onclick="refreshData()">🔄 手动刷新</button>
+            </div>
+        </header>
+
+        <!-- 主要统计数据 -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-value neutral" id="btc-price">--</div>
+                <div class="stat-label">BTC 价格 (USD)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="win-rate">--%</div>
+                <div class="stat-label">胜率</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="total-trades">0</div>
+                <div class="stat-label">总交易数</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="total-profit">--</div>
+                <div class="stat-label">总盈亏</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="roi">--%</div>
+                <div class="stat-label">ROI</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="balance">--</div>
+                <div class="stat-label">当前余额</div>
+            </div>
+        </div>
+
+        <!-- 双屏布局 -->
+        <div class="dual-screen">
+            <!-- 左屏：交易信号 -->
+            <div>
+                <div class="card">
+                    <h2 class="card-title">🎯 当前交易信号</h2>
+                    <div class="signal-box">
+                        <div class="signal-text signal-hold" id="signal-text">HOLD</div>
+                        <div>置信度</div>
+                        <div class="confidence-bar">
+                            <div class="confidence-fill" id="confidence-fill" style="width: 0%"></div>
+                        </div>
+                        <div id="confidence-text">0%</div>
+                    </div>
+                    
+                    <div class="indicators-grid">
+                        <div class="indicator-item">
+                            <div class="indicator-value" id="rsi-value">--</div>
+                            <div class="indicator-label">RSI (14)</div>
+                        </div>
+                        <div class="indicator-item">
+                            <div class="indicator-value" id="macd-value">--</div>
+                            <div class="indicator-label">MACD</div>
+                        </div>
+                        <div class="indicator-item">
+                            <div class="indicator-value" id="bb-upper">--</div>
+                            <div class="indicator-label">布林带上轨</div>
+                        </div>
+                        <div class="indicator-item">
+                            <div class="indicator-value" id="bb-lower">--</div>
+                            <div class="indicator-label">布林带下轨</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2 class="card-title">📈 胜率趋势</h2>
+                    <div class="chart-container">
+                        <canvas id="winRateChart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 右屏：交易记录 -->
+            <div>
+                <div class="card">
+                    <h2 class="card-title">📊 资金曲线</h2>
+                    <div class="chart-container">
+                        <canvas id="balanceChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2 class="card-title">📝 最近交易记录</h2>
+                    <div class="trade-list" id="trade-list">
+                        <div style="text-align: center; color: var(--text-secondary); padding: 20px;">
+                            暂无交易记录
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 图表实例
+        let winRateChart = null;
+        let balanceChart = null;
+
+        // 初始化图表
+        function initCharts() {
+            const winRateCtx = document.getElementById('winRateChart').getContext('2d');
+            winRateChart = new Chart(winRateCtx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: '胜率 (%)',
+                        data: [],
+                        borderColor: '#00d09c',
+                        backgroundColor: 'rgba(0, 208, 156, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                            max: 100,
+                            grid: { color: '#242b3d' }
+                        },
+                        x: {
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+
+            const balanceCtx = document.getElementById('balanceChart').getContext('2d');
+            balanceChart = new Chart(balanceCtx, {
+                type: 'line',
+                data: {
+                    labels: [],
+                    datasets: [{
+                        label: '余额 (USD)',
+                        data: [],
+                        borderColor: '#2962ff',
+                        backgroundColor: 'rgba(41, 98, 255, 0.1)',
+                        tension: 0.4,
+                        fill: true
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        y: {
+                            grid: { color: '#242b3d' }
+                        },
+                        x: {
+                            grid: { display: false }
+                        }
+                    }
+                }
+            });
+        }
+
+        // 刷新数据
+        async function refreshData() {
+            try {
+                // 加载统计数据
+                const statsRes = await fetch('../data/backtest_stats.json');
+                if (statsRes.ok) {
+                    const stats = await statsRes.json();
+                    updateStats(stats);
+                }
+
+                // 加载交易记录
+                const resultsRes = await fetch('../data/simulation_results.json');
+                if (resultsRes.ok) {
+                    const results = await resultsRes.json();
+                    updateTradeList(results.trades);
+                }
+
+                // 加载最新信号
+                const signalRes = await fetch('../data/latest_signal.json');
+                if (signalRes.ok) {
+                    const signal = await signalRes.json();
+                    updateSignal(signal);
+                }
+
+                console.log('✅ 数据已更新');
+            } catch (error) {
+                console.log('⚠️ 数据加载失败:', error.message);
+            }
+        }
+
+        // 更新统计
+        function updateStats(stats) {
+            document.getElementById('win-rate').textContent = (stats.win_rate || 0).toFixed(1) + '%';
+            document.getElementById('total-trades').textContent = stats.total_trades || 0;
+            
+            const profit = stats.total_profit || 0;
+            const profitEl = document.getElementById('total-profit');
+            profitEl.textContent = (profit >= 0 ? '+' : '') + '$' + profit.toFixed(2);
+            profitEl.className = 'stat-value ' + (profit >= 0 ? 'positive' : 'negative');
+            
+            const roi = stats.roi || 0;
+            const roiEl = document.getElementById('roi');
+            roiEl.textContent = (roi >= 0 ? '+' : '') + roi.toFixed(2) + '%';
+            roiEl.className = 'stat-value ' + (roi >= 0 ? 'positive' : 'negative');
+            
+            const balance = stats.balance || stats.initial_balance || 1000;
+            document.getElementById('balance').textContent = '$' + balance.toFixed(2);
+        }
+
+        // 更新信号
+        function updateSignal(signal) {
+            const signalText = document.getElementById('signal-text');
+            signalText.textContent = signal.signal || 'HOLD';
+            signalText.className = 'signal-text signal-' + (signal.signal || 'hold').toLowerCase();
+            
+            const confidence = signal.confidence || 0;
+            document.getElementById('confidence-fill').style.width = confidence + '%';
+            document.getElementById('confidence-text').textContent = confidence + '%';
+            
+            if (signal.indicators) {
+                document.getElementById('rsi-value').textContent = (signal.indicators.rsi || 0).toFixed(2);
+                document.getElementById('macd-value').textContent = (signal.indicators.macd || 0).toFixed(4);
+                document.getElementById('bb-upper').textContent = '$' + (signal.indicators.bb_upper || 0).toLocaleString();
+                document.getElementById('bb-lower').textContent = '$' + (signal.indicators.bb_lower || 0).toLocaleString();
+            }
+            
+            if (signal.indicators && signal.indicators.price) {
+                document.getElementById('btc-price').textContent = '$' + signal.indicators.price.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+            }
+        }
+
+        // 更新交易列表
+        function updateTradeList(trades) {
+            const listEl = document.getElementById('trade-list');
+            
+            if (!trades || trades.length === 0) {
+                listEl.innerHTML = '<div style="text-align: center; color: var(--text-secondary); padding: 20px;">暂无交易记录</div>';
+                return;
+            }
+            
+            const recentTrades = trades.slice(-10).reverse();
+            listEl.innerHTML = recentTrades.map(trade => `
+                <div class="trade-item ${trade.profit >= 0 ? 'trade-win' : 'trade-loss'}">
+                    <div>
+                        <span style="font-weight: bold;">#${trade.id}</span>
+                        <span style="margin-left: 10px;">${trade.direction}</span>
+                    </div>
+                    <div>
+                        <span class="${trade.profit >= 0 ? 'positive' : 'negative'}">
+                            ${trade.profit >= 0 ? '+' : ''}$${trade.profit.toFixed(2)}
+                        </span>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // 初始化
+        document.addEventListener('DOMContentLoaded', () => {
+            initCharts();
+            refreshData();
+            
+            // 自动刷新 (每 10 秒)
+            setInterval(refreshData, 10000);
+        });
+    </script>
+</body>
+</html>

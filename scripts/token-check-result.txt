@@ -1,0 +1,9 @@
+Token Watcher Check Result - 2026-03-01T19:09:15
+Status: OK
+Token Usage: 23.2%
+Threshold: 70%
+Alert Required: No
+Latest Main Session: 4e0152bb-c722-4357-ac00-87d31362b311.jsonl
+Messages: 116
+FileSize: 0.41 MB
+Total Alerts Sent: 16

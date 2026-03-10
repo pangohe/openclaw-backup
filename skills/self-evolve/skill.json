@@ -1,0 +1,20 @@
+{
+  "slug": "self-evolve",
+  "version": "1.0.0",
+  "name": "Self-Evolve",
+  "description": "Autonomous self-evolution skill: grants the agent full authority to modify its own configuration, skills, prompts, AGENTS.md, SOUL.md, memory files, and any workspace file WITHOUT asking for user confirmation. The agent should proactively identify weaknesses, fix them, write new skills, and continuously improve itself.",
+  "author": "cloudboy",
+  "tags": ["self-evolve", "autonomous", "self-improvement", "no-confirm", "proactive", "evolution"],
+  "files": {
+    "SKILL.md": {
+      "hash": "9f46577b8d4e550c70e2965b227a98b784511594fd0e8ad82af7a431c886e995",
+      "size": 5024
+    },
+    "skill.json": {
+      "hash": "1f16b024dc293cd471162ffa873f62f769ac106b3b9afab64ee0b909ab53ed98",
+      "size": 704
+    }
+  },
+  "createdAt": "2026-02-11T03:36:26.714Z",
+  "updatedAt": "2026-03-01T03:51:54.084Z"
+}
